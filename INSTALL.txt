@@ -1,0 +1,21 @@
+INSTALASI
+
+buat database mysql
+masuk situs http://situs.mu/install/
+install - next - next - masukkan username, password, database name - next - buat username - next - selesai hapus folder /install/
+
+
+remodified by noe
+site http://nnetwork.tk
+email loegue.info@gmail.com
+
+
+
+
+DONASI
+
+silahkan berikan donasi anda seikhlasnya dengan pulsa kirim ke nomer im3 08562572904
+silahkan berikan donasi anda seikhlasnya dengan pulsa kirim ke nomer im3 08562572904
+PERINGATAN
+
+dilarang menjual-belikan script ini!!!

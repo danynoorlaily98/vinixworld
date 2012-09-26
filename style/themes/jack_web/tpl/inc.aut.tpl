@@ -1,0 +1,1 @@
+{include_php file="$theme_path/php/inc.aut.php"}

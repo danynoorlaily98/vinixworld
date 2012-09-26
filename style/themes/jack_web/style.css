@@ -1,0 +1,403 @@
+body {
+    background: #000 url(images/bg_body.gif) repeat-x;
+    color:#A0A0A0;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+	width: 800px
+}
+
+.wraper{
+    margin: auto;
+}
+
+#left_top{
+    background: url(images/bg_side_top.jpg) no-repeat;
+    height:164px;
+    width:196px;
+}
+
+#left_c{
+    background: #32373B url(images/bg_side.jpg) no-repeat bottom;
+    clear: both;
+    padding-bottom: 180px;
+    width: 173px;
+    margin-left: 23px;
+}
+
+
+#wrap_top{
+    background:url(images/bg_logo.jpg) no-repeat;
+    height:170px;
+    width:566px;
+    margin-top: 20px;	
+}
+
+
+#logo a{
+    margin: 80px 0 0 200px;
+	font-size: 30px;
+    font-weight: bold;
+    font-family: tahoma, verdana, arial, sans-serif, Lucida Sans;
+	color: #0094FF;
+	position: absolute;
+}
+
+
+img{
+border: 0px;
+margin: 0px;
+padding: 0px;
+}
+
+
+form{
+display: inline;
+margin:0px;
+padding:0px;
+}
+
+textarea{
+font-size: 11px;
+font-weight: bold;
+font-family: tahoma, verdana, arial, sans-serif, Lucida Sans;
+max-width: 100%;
+width: 90%;
+height: 4pc;
+margin-bottom: 10px;
+}
+
+input, select{
+font-family: tahoma, verdana, arial, sans-serif, Lucida Sans;
+font-size: 11px;
+border: 1px #000 solid;
+background-color: #fff;
+margin-bottom: 10px;
+}
+input:focus, select:focus{
+font-weight: bold;
+border: 1px #000 solid;
+}
+input:hover, select:hover{
+border: 1px #000 dashed;
+}
+
+
+table{width: 100%;}
+td{vertical-align: top;}
+
+a {
+color: #0094FF; text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+
+
+
+
+table.rekl_title{
+border-bottom: 1px #000 solid;
+padding: 5px 10px 5px 10px;
+margin: 5px 10px 5px 10px;
+}
+table.rekl_title td{
+text-align: center;
+}
+
+
+div.system_messages{
+color: #fff;
+font-weight: bold;
+margin: 2px 10px 10px 10px;
+padding: 2px 0px 2px 0px;
+text-align: center;
+font-size: 14px;
+background-image: url(images/mr.png);
+border-bottom: 1px #000000 dotted;
+}
+
+div.system_errors{
+color: #fff;
+font-weight: bold;
+margin: 2px 10px 10px 10px;
+padding: 2px 0px 2px 0px;
+text-align: center;
+font-size: 14px;
+background-image: url(images/mr.png);
+border-bottom: 1px #000000 dotted;
+}
+
+
+
+
+span.ank_status{
+color: #fff;
+font-weight: bold;
+font-size: 13px;
+}
+
+span.ank_key{
+font-weight: bold;
+}
+span.ank_value{
+color: #fff;
+font-style: italic;
+}
+
+
+
+.mr {
+background-image: url(images/bg_sidecaption.gif);
+padding: 5px;
+text-align: center;
+}
+
+.mr1 {
+background-image: url(images/bg_sidecaption.gif);
+margin-top: 15px;
+height: 15px;
+padding: 5px;
+text-align: center;
+}
+
+
+div.forms{
+background-image: url(images/mn.png);
+}
+
+div.aut{
+width: 164px;
+margin-top: -4px;
+}
+
+div.umenu, div.main_menu, div.rekl_menu { /* навигация слева */
+padding-top: 5px;
+padding-bottom: 10px;
+width: 173px;
+font-weight: bolder;
+font-size: 15px;
+padding-right: 10px;
+background-image: url(images/mn.png);
+}
+
+div.umenu a, div.main_menu a, div.any_menu a, div.rekl_menu a{ /* навигация слева (ссылки) */
+text-align: left;
+color: #ccc;
+display: block;
+margin-left: 10px;
+margin-bottom: 1px;
+padding-left: 10px;
+background-image: url(images/bt.png);
+height: 18px;
+}
+
+div.umenu a:hover, div.main_menu a:hover, div.any_menu a:hover, div.rekl_menu a:hover{ /* навигация слева (ссылки) */
+padding-left: 10px;
+background-image: url(images/mn.png);
+color: #ccc;
+}
+
+
+div.content{
+   background: #222629 url(images/bg_content.jpg) no-repeat bottom;
+   width:464px;
+   padding:0 40px 170px;
+   margin-top: -7px;
+   min-height: 600px;
+   font-size: 15px;
+}
+
+div.select
+{
+margin:4px;
+padding: 4px;
+border-bottom: 1px #0094FF solid;
+}
+
+div.select span
+{
+font-weight: bolder;
+}
+
+
+div.contentlist{
+    overflow: hidden;
+}
+
+
+div.post_item{
+margin: 4px;
+padding: 4px;
+border-bottom: 1px #0094FF dotted;
+}
+div.post_item:hover{
+background-color: #303030;
+}
+
+
+div.post_item_new{
+margin: 4px;
+padding: 4px;
+background-image: url(images/new.gif);
+background-position: right top;
+background-repeat: no-repeat;
+border-bottom: 1px #009700 dotted;
+}
+div.post_item_new:hover{
+background-color: #303030;
+}
+
+
+td.quote{
+color: #fff;
+padding-left: 4px;
+border-left: 4px #0094FF solid;
+background-color: #303030;
+}
+
+span.quote_title{
+font-weight: bold;
+}
+span.quote_msg{
+}
+
+
+
+
+td.content_act{
+width: 16px;
+}
+
+td.content_act img{
+background-color: #303030;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+opacity: 0.2;
+}
+td.content_act img:hover{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+opacity: 1;
+}
+
+
+
+table.pages{
+height: 22px;
+}
+
+table.pages td{
+text-align: center;
+vertical-align: middle;
+}
+
+
+table.pages td.this_page{
+width: 47px;
+background: url(images/to_but.png) no-repeat center;
+font-weight: bold;
+}
+
+table.pages td.page{
+width: 47px;
+background: url(images/act_but.png) no-repeat center;
+font-weight: bold;
+}
+table.pages td.page:hover{
+background: url(images/hov.png);
+}
+
+table.pages td.page a{
+text-decoration: none;
+color: #fff;
+display: block;
+}
+
+
+
+
+table.links{
+text-align: center;
+margin: 4px;
+padding: 4px;
+border-bottom: 1px #0094FF dotted;
+}
+
+.action_links, .action_title{
+text-align: center;
+margin: 4px;
+padding: 4px;
+border-bottom: 1px #0094FF dotted;
+}
+
+
+div.menu_body a{
+display: block;
+margin: 7px;
+padding-left: 4px;
+border-left: 4px #0094FF solid;
+border-bottom: 1px #0094FF dotted;
+}
+div.menu_body a:hover{
+border-left-color: #0094FF;
+}
+
+
+
+div.form{
+margin: 4px;
+padding: 4px;
+}
+
+table.form_title{
+font-size: 14px;
+font-weight: bolder;
+margin: 4px;
+padding: 4px;
+border-bottom: 1px #0094FF dotted;
+}
+
+
+
+div.links_path{
+font-size: 14px;
+font-weight: bolder;
+margin-top: 10px;
+}
+
+
+div.index_block_title{
+font-size: 14px;
+text-align: center;
+font-weight: bold;
+border-bottom: 1px #0094FF solid;
+padding: 10px 50px 10px 50px;
+
+}
+div.index_block_item_title{
+margin-top: 10px;
+font-weight: bold;
+
+}
+
+
+
+
+table.rekl_foot{
+border-top: 1px #0094FF solid;
+padding: 10px 50px 10px 50px;
+}
+table.rekl_foot td{
+text-align: center;
+}
+
+table.foot{
+border-top: 1px #0094FF solid;
+width: 100%;
+height:40px;
+padding: 30px 50px 10px 50px;
+}
+
+#copy{
+    font-size: 12px;
+	font-weight: bolder;
+	margin: 10px 0 0 15px;
+}

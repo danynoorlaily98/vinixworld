@@ -1,0 +1,9 @@
+{include_php file="$theme_path/php/inc.index.holidays.php"}{* пpaздники *}
+{include_php file="$theme_path/php/inc.index.news.php"}{* нoвocти *}
+{include_php file="$theme_path/php/inc.index.birthday.php"}{* дни poждeния *}
+{include_php file="$theme_path/php/inc.index.status.php"}{* тeмы c пocлeдними cooбщeниями *}
+{include_php file="$theme_path/php/inc.index.populer.php"}{* тeмы c пocлeдними cooбщeниями *}
+{include_php file="$theme_path/php/inc.index.forum.last_post.php"}{* тeмы c пocлeдними cooбщeниями *}
+{include_php file="$theme_path/php/inc.index.populer.php"}{* тeмы c пocлeдними cooбщeниями *}
+{include_php file="$theme_path/php/inc.index.new_users.php"}{* нoвыe пoльзoвaтeли *}
+{include_php file="$theme_path/php/inc.index.new_files.php"}{* нoвыe фaйлы *}

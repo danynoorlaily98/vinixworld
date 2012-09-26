@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on 
+  RewriteRule ^down_([^/]{32})/(.*)/([^/]*)$ index.php?down&d=$2&f=$3&tmp=$1 [L,QSA]
+  RewriteRule ^down/(.*)/([^/]*)$ index.php?down&d=$1&f=$2 [L,QSA]
+  RewriteRule ^mp3crop/([^/]*)$ /sys/loads/mp3crop/$1 [L,QSA]
+</IfModule>

@@ -1,0 +1,1 @@
+<?if(@$user['level']==10)echo "<a href='reg_conf.php'>Wellcome registration</a><br />\n";?>

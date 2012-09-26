@@ -1,0 +1,1 @@
+﻿ALTER TABLE `user` ADD `privet` varchar(512) default NULL;
